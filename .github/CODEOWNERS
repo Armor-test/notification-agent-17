@@ -1,0 +1,39 @@
+# CODEOWNERS file for notification-agent-17
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reliability @Armor-test/dept-logging @Armor-test/dept-billing
+
+# Directory ownership
+/styles/ @Armor-test/team-reporting @Armor-test/grp-api @Armor-test/dept-ui
+/helpers/ @Armor-test/team-core @Armor-test/squad-ml @Armor-test/dept-reporting
+/app/ @Armor-test/unit-test @Armor-test/dept-security
+/pkg/ @Armor-test/squad-cache @Armor-test/squad-performance
+/src/ @Armor-test/grp-integration @Armor-test/team-reporting
+/internal/ @Armor-test/grp-api @Armor-test/team-research
+/scripts/ @Armor-test/team-logging @Armor-test/grp-ui @Armor-test/squad-search
+/views/ @Armor-test/dept-data @Armor-test/squad-payments
+/static/ @Armor-test/grp-reporting @Armor-test/team-notifications @Armor-test/squad-performance
+/test/ @Armor-test/squad-frontend @Armor-test/squad-tooling @Armor-test/dept-data
+/public/ @Armor-test/unit-cloud @Armor-test/squad-performance
+/tools/ @Armor-test/dept-release @Armor-test/squad-reporting
+/dist/ @Armor-test/unit-devops @Armor-test/dept-security @Armor-test/squad-research
+/hooks/ @Armor-test/squad-product @Armor-test/grp-integration
+/build/ @Armor-test/grp-payments @Armor-test/unit-governance
+
+# File type ownership
+*.config @Armor-test/grp-payments @Armor-test/grp-ui
+*.properties @Armor-test/squad-api @Armor-test/squad-ml @Armor-test/squad-reporting
+*.java @Armor-test/grp-ui @Armor-test/unit-devops @Armor-test/dept-api
+*.proto @Armor-test/team-notifications @Armor-test/squad-ml
+*.html @Armor-test/squad-tooling @Armor-test/unit-test
+*.js @Armor-test/dept-ui @Armor-test/team-frontend
+*.go @Armor-test/unit-devops @Armor-test/squad-reporting
+*.graphql @Armor-test/squad-apps @Armor-test/team-governance @Armor-test/grp-payments
+*.h @Armor-test/dept-automation @Armor-test/dept-logging @Armor-test/team-reporting
+*.py @Armor-test/dept-identity @Armor-test/team-frontend @Armor-test/dept-notifications
+*.scss @Armor-test/grp-integration @Armor-test/team-governance @Armor-test/dept-logging
+*.rs @Armor-test/unit-design @Armor-test/dept-billing
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
